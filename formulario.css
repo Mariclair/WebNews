@@ -1,0 +1,89 @@
+label{
+    padding: 0 10px;
+    display: block;
+    color: white;
+}
+
+input[type=text]{
+    font-weight:700;
+    width: 100%;
+    padding: 5px;
+    background-color: darkgrey;
+}
+
+input[type=date]{
+    font-weight:700;
+    background-color: darkgray;
+}
+
+/*combo-box seleção*/
+select{
+    width: fit-content;
+    padding: 10px;
+    background-color: darkgray;
+    font-weight:700;
+}
+
+input[type=reset],[type=submit]{
+    padding:12px 50px;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=file]{ /* trabalhando com o arquivo(foto no caso desse projeto) */
+    display: none; /*não mostrar nada na tela*/
+}
+
+/*botão de limpar */
+input[type=reset]{
+    background-color:brown;
+}
+
+input[type=reset]:hover{
+    color: brown;
+    background-color:whitesmoke;
+   
+}
+
+/*botão de enviar */
+input[type=submit]{
+    background-color:rgb(11, 73, 19);
+}
+
+input[type=submit]:hover{
+    background-color:whitesmoke;
+    color:rgb(11, 73, 19) ;
+ 
+}
+
+/*botão de imagem*/
+.inputfile + label{
+    background-color: darkslategray;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.inputfile + label:hover{
+    background-color: white;
+    color: darkslategray; 
+}
+
+
+
+/*Area de digitação do texto da notícia e resumo*/
+textarea {
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight:700;
+    background-color: darkgray;
+}
